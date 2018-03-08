@@ -1,0 +1,88 @@
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+
+body {
+    background-color: black;
+}
+
+td {
+
+color: #00af00;
+
+
+}
+
+ft {
+
+color: #00af00;
+
+
+}
+
+h3 {
+
+color: #00af00;
+
+
+}
+
+#parent {
+   display: table;
+   width: 100%;
+}
+
+#Doxed {
+   display: table-cell;
+   text-align: center;
+    position: absolute;
+    left: 280px;
+    top: 110px;
+}
+
+#doxsearch {
+    position: absolute;
+    left: 220px;
+    top: 35px;
+}
+
+#logopos {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+.output {
+    background-color: #1a1a1a; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 110px;
+}
+.doxin {
+    background-color: #1a1a1a; 
+    padding: 15px 32px;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+.doxinbox {
+    background-color: #333333; 
+    position: absolute;
+    left: 400px;
+    top: 1px;
+}
