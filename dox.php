@@ -5,29 +5,25 @@
 </head>
 <body>
 <script type="text/javascript">
+
 function validateForm() {
-    var x = document.forms["subdox"]["name"].value;
-    if (x == "") {
+    var a = document.forms["subdox"]["name"].value;
+    if (a == "") {
         alert("Name must be filled out");
-        return false;
-    }
-} 
 
-function validateForm() {
-    var x = document.forms["subdox"]["Phone"].value;
-    if (x == "") {
-        alert("Phone Number must be filled out");
-        return false;
     }
-} 
+    var b = document.forms["subdox"]["Phone"].value;
+    if (b == "") {
+        alert("Phone must be filled out");
 
-function validateForm() {
-    var x = document.forms["subdox"]["Profile"].value;
-    if (x == "") {
-        alert("Profile Link must be filled out");
-        return false;
-    }
 } 
+    var c = document.forms["subdox"]["Profile"].value;
+    if (c == "") {
+        alert("Profile must be filled out");
+
+} 
+        return false;
+}
 </script>
 
 <div id="parent">
